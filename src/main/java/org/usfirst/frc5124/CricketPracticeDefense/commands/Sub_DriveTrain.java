@@ -40,9 +40,6 @@ public class Sub_DriveTrain extends Command {
         // Robot.driveTrain.drive();
         SmartDashboard.putNumber("Runtime:", timeSinceInitialized());
         SmartDashboard.putNumber("Pot Value", Robot.driveTrain.getPot());
-        // SmartDashboard.putNumber("X", x);
-        // SmartDashboard.putNumber("Y", y);
-        // SmartDashboard.putNumber("Z", z);
         
     }
 
